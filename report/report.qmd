@@ -1,0 +1,38 @@
+---
+title: "Singular Spectrum Analysis"
+subtitle: "A method of time series decomposition and analysis"
+author: "Sidak Kalra"
+date: today
+engine: julia
+
+format:
+  html:
+    self-contained: true
+    css: styles.css
+    grid:
+      margin-width: 400px
+    fontsize: 1.05rem
+    linestretch: 1.6
+    toc: true
+    html-math-method: katex
+    code-tools: true
+
+#   pdf:
+#     pdf-engine: xelatex
+#     documentclass: scrartcl
+#     fontsize: 11pt
+#     linestretch: 1.15
+#     toc: true
+
+execute:
+  echo: fenced
+
+reference-location: margin
+citation-location: margin
+---
+
+# Introduction
+
+Singular Spectrum analysis (SSA) is a time series analysis method with unique features. SSA is a non-parametric method that in its basic form has two main stages: Decomposition and Reconstruction. 
+
+{{< pagebreak >}}

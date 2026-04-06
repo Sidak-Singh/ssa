@@ -1,0 +1,7 @@
+h1 {
+  break-before: page;
+  page-break-before: always;
+  margin-top: 4rem;
+  padding-top: 2rem;
+  border-top: 1px solid #ddd;
+}
