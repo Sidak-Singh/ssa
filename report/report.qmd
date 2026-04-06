@@ -16,6 +16,7 @@ format:
     toc: true
     html-math-method: katex
     code-tools: true
+    output-file: "index.html"
 
 #   pdf:
 #     pdf-engine: xelatex
