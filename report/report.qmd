@@ -1403,6 +1403,3 @@ Singular Spectrum Analysis (SSA) provides a powerful and flexible way to decompo
 Through the simulated example, SSA has been shown to recover both the trend and oscillatory components with low relative error. The white dwarf light curve example demonstrated how SSA can extract meaningful oscillatory behavior from real astrophysical data, while the sunspot example showed that SSA can recover the well-known approximately 11-year solar cycle from noisy, incomplete observations.
 
 Overall, SSA is useful because it combines interpretability with adaptability. Its effectiveness depends strongly on appropriate choices of window length, rank truncation, and grouping, but its fast implimentation allows one to play around with these parameters until a viable result can be reached. This confirms SSA as a practical method for smoothing, denoising, and extracting meaningful structure from complex time series.
-
-\newpage
-# References
