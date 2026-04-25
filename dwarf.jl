@@ -2,6 +2,7 @@ using CSV
 using DataFrames
 using Plots
 using Main.SSA
+using Main.SSA_module
 
 
 mat = CSV.read("Dwarfst.dat", DataFrame; header = false)
@@ -44,10 +45,10 @@ end
 plot(hankelization(grouped_matrices[3])[1])
 W = abs.(w_matrix(X, 30))
 
-df = DataFrame(W, :auto) # ':auto' creates column names x1, x2, ...
-vscodedisplay(df)
-a = hankelization(grouped_matrices[1])
-typeof(a)
+# df = DataFrame(W, :auto) # ':auto' creates column names x1, x2, ...
+# vscodedisplay(df)
+# a = hankelization(grouped_matrices[1])
+# typeof(a)
 
 heatmap(
     W,
